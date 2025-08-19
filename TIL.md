@@ -10,3 +10,9 @@
 - CSS 실습: padding, margin, border-radius
 - 내 소개 페이지 완성 (index.html + style.css)
 - GitHub commit & push 경험
+
+## Day 3 (2025-08-19)
+- HTML 레이아웃 태그 학습: header, nav, main, section, article, aside, footer
+- CSS 선택자 학습: 태그, 클래스(.), 아이디(#), 전체(*)
+- CSS 박스 모델 이해: margin, border, padding, content
+- 간단한 블로그 레이아웃 페이지 완성

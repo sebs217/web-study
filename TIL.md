@@ -67,4 +67,45 @@
 
 - 다음에는 index랑 about 따로따로 css 파일 연결해보기!
 
+# Day 5 - 2025.08.20
+
+## 📚 오늘 공부한 내용
+- 오늘 배운 주제:
+  - CSS margin / padding 차이
+- 실습한 것:
+  - index.html과 about.html 디자인 다르게 적용
+
+
+---
+
+## 🧠 오늘 배운 개념 정리
+- `margin` : 요소의 **바깥 여백** (다른 요소와의 간격)
+- `padding` : 요소의 **안쪽 여백** (콘텐츠와 테두리 사이 공간)
+- `display: flex;` : 요소들을 가로/세로로 배치할 수 있는 레이아웃 시스템
+- 
+
+---
+
+## 💻 코드 예시
+```html
+ <link rel="stylesheet" href="index.css">
+ <link rel="stylesheet" href="about.css">
+
+section {
+  flex: 3;
+  margin-right: 20px;
+}
+```
+
+## ❗ 어려웠던 점 / 헷갈렸던 점
+
+- margin과 padding 차이가 아직 헷갈림 (겹쳐지는 경우를 더 연습 필요)
+
+- flexbox 속성이 많아서 한 번에 다 외우기 어려움
+
+## ✨ 오늘의 한 줄 회고
+
+- CSS는 코드 몇 줄만 바꿔도 화면이 확 달라지는 게 신기하다 다음에는 더 다양한 색으로 꾸며봐야겠다.
+
+
 

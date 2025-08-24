@@ -99,13 +99,82 @@ section {
 
 ## ❗ 어려웠던 점 / 헷갈렸던 점
 
-- margin과 padding 차이가 아직 헷갈림 (겹쳐지는 경우를 더 연습 필요)
+- `margin`과 `padding` 차이가 아직 헷갈림 (겹쳐지는 경우를 더 연습 필요)
 
-- flexbox 속성이 많아서 한 번에 다 외우기 어려움
+- `flexbox` 속성이 많아서 한 번에 다 외우기 어려움
 
 ## ✨ 오늘의 한 줄 회고
 
 - CSS는 코드 몇 줄만 바꿔도 화면이 확 달라지는 게 신기하다 다음에는 더 다양한 색으로 꾸며봐야겠다.
+
+# Day 6 - 2025.08.22
+## 📚 오늘 공부한 내용
+
+오늘 배운 주제:
+
+HTML `<div>`와 클래스 사용법
+
+CSS로 카드 UI 디자인하기 (`.card` 스타일링)
+
+프로필 사진 원형 만들기 (`border-radius: 50%`)
+
+`margin` / `padding`의 차이 복습
+
+실습한 것:
+
+`about.html`, `about.css` 파일 작성
+
+프로필 카드 만들기
+
+## 🧠 오늘 배운 개념 정리
+
+`<div>` : 여러 요소들을 묶는 컨테이너 역할. class 속성을 주어 CSS와 연결 가능.
+
+`<img src="주소" alt="설명">` : 이미지를 불러오는 태그. alt는 이미지가 안 뜰 때 보여줄 글.
+
+`margin` : 바깥 여백, 다른 요소와의 거리.
+
+`padding` : 안쪽 여백, 박스 내부 내용과 테두리 사이의 거리.
+
+`border-radius: 50%` : 정사각형 이미지를 원형으로 자를 수 있음.
+
+`box-shadow` : 박스에 그림자 효과를 줘서 입체감을 만듦.
+
+## 💻 코드 예시
+```
+<div class="card">
+  <img src="https://via.placeholder.com/150" alt="내 사진">
+  <h2>홍길동</h2>
+  <p>웹 개발자가 되기 위해 공부 중입니다!</p>
+</div>
+
+.card {
+  width: 300px;
+  padding: 20px;
+  margin: 50px auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+```
+## ❗ 어려웠던 점 / 헷갈렸던 점
+
+CSS 파일이 적용이 안 될 때 원인이 뭔지 찾는 게 어려웠음. (링크 경로 문제, 오타 확인 필요)
+
+`margin`/`padding` 차이를 코드로 직접 비교하면서 조금 더 익혀야겠다고 느낌.
+
+## ✨ 오늘의 한 줄 회고
+
+CSS로 꾸민다는게 무슨 느낌인지 알듯말듯
 
 
 

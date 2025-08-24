@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #F5F5F5;
+  color: #333333;
+  padding: 20px;
+}
+
+nav a {
+  color: #333333;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  margin: 20px;
+}
+
+section {
+  flex: 3;
+  margin-right: 20px;
+}
+
+aside {
+  flex: 1;
+  background: #3498DB;
+  padding: 10px;
+}
+
+footer {
+  background: #F5F5F5;
+  color: #333333;
+  text-align: center;
+  padding: 10px;
+}

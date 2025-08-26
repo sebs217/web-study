@@ -176,5 +176,64 @@ CSS 파일이 적용이 안 될 때 원인이 뭔지 찾는 게 어려웠음. (�
 
 CSS로 꾸민다는게 무슨 느낌인지 알듯말듯
 
+# Day 7 - 2025.08.25
+## 📚 오늘 공부한 내용
 
+- 오늘 배운 주제:
+
+- 버튼(`<button>`, `<a>`) 추가 방법
+
+- `<a>` 태그 꾸미기 (링크 스타일링)
+
+- CSS에서 `hover` 효과 이해하기
+
+- 실습한 것:
+
+- `index`, `about` 페이지에 버튼 추가
+
+- 버튼 `hover` 효과 실습 (색, 크기 변화)
+
+- `<a>` 태그 밑줄 제거, 색상 변경
+
+## 🧠 오늘 배운 개념 정리
+
+- `<a>`: 링크를 만드는 태그 (다른 페이지나 외부 사이트로 이동 가능)
+
+- `text-decoration: none;` → `<a>` 태그 밑줄 제거
+
+- `.button` 클래스: CSS로 링크를 버튼처럼 꾸밀 수 있음
+
+- `hover:` 마우스를 올렸을 때 변화하는 CSS 효과
+
+- `transform: scale(1.05);` → 크기를 1.05배 크게 만들어 눌러보고 싶게 함
+
+## 💻 코드 예시
+```
+<a href="about.html" class="button">About Me</a>
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #3498db;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: #2980b9;
+  transform: scale(1.05);
+}
+```
+
+## ❗ 어려웠던 점 / 헷갈렸던 점
+
+- 버튼을 `<button>`으로 쓸지 `<a>` 태그로 꾸밀지 헷갈림
+
+- `hover` 효과가 적용되지 않을 때, CSS 파일 연결 여부를 확인해야 한다는 걸 알게 됨
+
+## ✨ 오늘의 한 줄 회고
+
+- 오류가 너무 많이나서 살짝 지쳤다
 

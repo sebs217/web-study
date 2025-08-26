@@ -237,3 +237,71 @@ CSS로 꾸민다는게 무슨 느낌인지 알듯말듯
 
 - 오류가 너무 많이나서 살짝 지쳤다
 
+# Day 8 - 2025.08.26
+## 📚 오늘 공부한 내용
+
+- 오늘 배운 주제:
+
+- `<form>` 태그로 입력창 만들기
+
+- `<input>`, `<textarea>`, `<label>` 등 기본 입력 요소
+
+- CSS로 입력칸 크기와 디자인 통일하기
+
+- 실습한 것:
+
+- `contact.html` 페이지 제작
+
+- 이름 / 이메일 / 메시지 입력칸 만들기
+
+- 버튼 `hover` 효과 적용
+
+## 🧠 오늘 배운 개념 정리
+
+- `<form>` : 입력칸들을 묶는 태그
+
+- `<label>` : 입력칸 이름 붙이는 태그
+
+- `<input type="text">` : 글자 입력칸
+
+- `<input type="email">` : 이메일 입력칸
+
+- `<textarea>` : 여러 줄 입력 가능 (메시지, 소개글 등)
+
+- `box-sizing: border-box; : padding` 포함해서 크기를 계산 → 입력칸 규격을 맞출 때 유용함
+
+## 💻 코드 예시
+
+```
+<form>
+  <label for="name">이름:</label>
+  <input type="text" id="name" name="name" placeholder="이름을 입력하세요">
+
+  <label for="email">이메일:</label>
+  <input type="email" id="email" name="email" placeholder="이메일 입력">
+
+  <label for="message">메시지:</label>
+  <textarea id="message" name="message" rows="5" placeholder="하고 싶은 말을 적어주세요"></textarea>
+
+  <input type="submit" value="보내기" class="button">
+</form>
+
+form input, form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+```
+## ❗ 어려웠던 점 / 헷갈렸던 점
+
+- 입력칸 크기가 제각각 달라 보여서 수정 방법을 찾아야 했음
+
+- `box-sizing: border-box;` 속성이 규격 맞추기에 핵심이라는 걸 배움
+
+## ✨ 오늘의 한 줄 회고
+
+- 뭔가 그럴싸해지고 있당 
